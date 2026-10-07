@@ -1,0 +1,41 @@
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime data and candidate documents
+*.db
+*.sqlite
+*.sqlite3
+data/
+**/data/
+uploads/
+exports/
+tmp_test/
+*.log
+
+# Frontend
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.vite/
+*.tsbuildinfo
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
